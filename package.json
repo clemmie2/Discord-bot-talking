@@ -1,32 +1,16 @@
 {
   "name": "discord-bot-talking",
   "version": "1.0.0",
-  "description": "a discord bot talking with api and database",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "node/src/inde.js",
+    "test": "node src/index.js",
     "dev": "nodemon src/index.js",
     "deploy": "node src/deploy-commands.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/clemmie2/Discord-bot-talking.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/clemmie2/Discord-bot-talking/issues"
-  },
-  "homepage": "https://github.com/clemmie2/Discord-bot-talking#readme",
   "dependencies": {
-    "axios": "^1.16.0",
-    "discord.js": "^14.26.4",
-    "dotenv": "^17.4.2",
-    "mongoose": "^9.6.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
+    "axios": "^1.8.0",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.0",
+    "mongoose": "^8.12.0"
   }
 }
